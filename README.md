@@ -1,12 +1,10 @@
-# Frogger Game: <h1> tag
+# Frogger Game: 
 
-frontend-nanodegree-arcade-game
-===============================
-
-###Descrição do jogo Frogger <h3> tag
+### Descrição do jogo Frogger 
 
 Sua implementação deve, mínima, segue a funcionalidade básica, mas novas funcionalidades podem ser implementadas,
 
+### Funcionalidade básica
 Neste jogo você tem um Jogador e Inimigos (Bugs). O objetivo do jogador é chegar à água, sem colidir com nenhum dos inimigos. O jogador pode mover-se para a esquerda, para a direita, para cima e para baixo. Os inimigos se movem em velocidades variadas na parte do bloco pavimentado da cena. Uma vez que o jogador colide com um inimigo, o jogo é reiniciado e o jogador volta para o quadrado inicial. Uma vez que o jogador chega à água, o jogo ganhou.
 
 
