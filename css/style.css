@@ -1,20 +1,23 @@
-* { margin:0; padding:0; } /* to remove the top and left whitespace */
+/*
+@Autor: Eduardo de Moraes Ferreira 
+@Email: ferr.tutorial@gmail.com
+*/
+
+* { margin:0; padding:0; } /* para remover o espaço branco do topo e da esquerda. */
 
 body {
   background-image:  url("../images/fundo-da-agua-azul.png");
   margin: 0px;
   animation: mar 60s infinite linear;
   overflow: hidden; 
-  display: flex;
+  display: flex; /*aqui começa a mágica*/
   justify-content: center;
   align-items: center;
-  /* align-items: center;
-  align-items: baseline; */
+
 }
 @keyframes mar {
 	0% {
     background-position: 0 0;
-   
   }
 	50% {
 		background-position: 100px 10px;
@@ -24,7 +27,7 @@ body {
 	}
 }
 canvas{
- 
+
   width: 100vmin;
   height: 100vmin;
     object-fit: contain;
@@ -35,21 +38,14 @@ canvas{
   border-radius: 5vw;
 }
 
-#controle{
-  
-
-}
 aside{
-
-
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 #controle #up {
   background: red;
   margin: 10vw 0% 0% 5vw;
-
 }
 
 #controle #right {
@@ -81,14 +77,3 @@ aside{
     flex-direction: row;
   }
 } 
-
-/* The grid-area property places a grid item into a named
- * area of the grid. */
-
-
-
-
-
-
-/* TODO
-https://www.origamid.com/codex/multiplos-backgrounds-com-css3/ */
