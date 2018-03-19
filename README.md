@@ -29,4 +29,4 @@ Neste jogo você tem um Jogador e Inimigos (Insetos). O objetivo do jogador é c
 
 
 Qualquer questão ou dúvida, encaminhar email para ferr.tutorial@gmail.com.
-Este trabalho é resultado da última atividade de Javascript Orientado a Objeto.
+
