@@ -33,3 +33,4 @@ Qualquer questão ou dúvida, encaminhar email para ferr.tutorial@gmail.com.
 
 ## Execução:
 > Baixar o projeto e executar o index.html em navegadores modernos de qualquer plataforma.
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
