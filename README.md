@@ -5,7 +5,7 @@
 
 Sua implementação segue as funcionalidades funcionalidades básicas,
 mas novas funcionalidades podem ser implementadas:
-![alt text](https://raw.githubusercontent.com/EduardoFerr/Frogame/master/images/PrintScreen/frogameMobile.png "Logo Title Text 1")
+![PrintScreen da tela do jogo](https://raw.githubusercontent.com/EduardoFerr/Frogame/master/images/PrintScreen/frogameMobile.png "Frog Game - HTML5/CSS3/JS-OO")
 
 ### Funcionalidade básica
 
