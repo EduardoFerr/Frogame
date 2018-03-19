@@ -1,9 +1,10 @@
 # Frogger Game: 
-![alt text](https://raw.githubusercontent.com/EduardoFerr/Frogame/master/images/PrintScreen/frogameMobile.png "Logo Title Text 1")
+
 
 ### Descrição do jogo Frogger 
 
-Sua implementação segue as funcionalidades funcionalidades básicas, mas novas funcionalidades podem ser implementadas,
+Sua implementação segue as funcionalidades funcionalidades básicas, mas novas funcionalidades podem ser implementadas:
+![alt text](https://raw.githubusercontent.com/EduardoFerr/Frogame/master/images/PrintScreen/frogameMobile.png "Logo Title Text 1")
 
 ### Funcionalidade básica
 
