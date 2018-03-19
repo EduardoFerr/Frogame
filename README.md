@@ -27,11 +27,13 @@ Neste jogo você tem um Jogador e Inimigos (Insetos). O objetivo do jogador é c
 - Seleção do jogador: permite ao usuário selecionar a imagem para o personagem do jogador antes de iniciar o jogo
 - Pontuação: sistema de pontuação
 - Colecionáveis: pedras e itens
+- Respaw do Jogar
+- Controle 
 
 
-Qualquer questão ou dúvida, encaminhar email para ferr.tutorial@gmail.com.
+
 
 ## Execução:
 > Baixar o projeto e executar o index.html em navegadores modernos de qualquer plataforma.
 
-
+>Qualquer questão ou dúvida, encaminhar email para ferr.tutorial@gmail.com.
