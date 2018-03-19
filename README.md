@@ -3,7 +3,7 @@
 
 ### Descrição do jogo Frogger 
 
-Sua implementação segue as funcionalidades funcionalidades básicas,
+Sua implementação segue as funcionalidades básicas,
 mas novas funcionalidades podem ser implementadas:
 
 ![PrintScreen da tela do jogo](https://raw.githubusercontent.com/EduardoFerr/Frogame/master/images/PrintScreen/frogameMobile.png "Frog Game - HTML5/CSS3/JS-OO")
