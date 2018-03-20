@@ -21,16 +21,16 @@ Neste jogo você tem um Jogador e Inimigos (Insetos). O objetivo do jogador é c
 + Respaw de Inimigos;
 
 
-### Funcionalidade Adicional - ISSUES
-- Respaw do jogador;
-- Detecção de colisão  inimigos e itens contra o jogador;
+### Funcionalidade Adicional/ISSUES
+- Respaw do jogador; **ISSUE**
+- Detecção de colisão  inimigos e itens contra o jogador; **ISSUE**
 - Tela prévia - uma tela de menu que possa ser chamada a cada respaw de jogador;
-- Música: música ambiente (com autoplay inclusive para mobile);
-- Efeitos sonoros: efeitos sonoros;
+- Música: música ambiente (com autoplay inclusive para mobile); **ISSUE**
+- Efeitos sonoros: efeitos sonoros; **ISSUE**
 - Seleção do jogador: permite ao usuário selecionar a imagem para o personagem do jogador antes de iniciar o jogo;
 - Pontuação: sistema de pontuação;
 - Colecionáveis: pedras e itens;
-- Controle.
+- Controle via wifi
 
 
 ## Execução:
