@@ -6,12 +6,14 @@
 * { margin:0; padding:0; } /* para remover o espaço branco do topo e da esquerda. */
 
 body {
+  width: 100vw;
+  height: 100vh;
   background-image:  url("../images/fundo-da-agua-azul.png");
   margin: 0px;
   animation: mar 60s infinite linear;
   overflow: hidden; 
-  display: flex; /*aqui começa a mágica*/
-  justify-content: center;
+  display: flex; 
+  justify-content: space-between;
   align-items: center;
 
 }
@@ -27,53 +29,57 @@ body {
 	}
 }
 canvas{
-
   width: 100vmin;
   height: 100vmin;
-    object-fit: contain;
+  object-fit: contain;
 }
 
-#controle  button{
-  padding: 5vw; 
-  border-radius: 5vw;
+button{
+  background: transparent ;
+  border-style: unset;
+  outline-style: none;
 }
 
-aside{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#controle {
+  width: inherit;
 }
-#controle #up {
-  background: red;
-  margin: 10vw 0% 0% 5vw;
+#controle > aside{
+  display: flex; 
+  justify-content: space-around;
 }
 
-#controle #right {
-  background: yellow;
-    margin: 0% 0% 0% 5vw;
-  
-}
-#controle #left {
-  background: green;
-  margin: 0% 10vw 0% 5vw;
-}
-#controle #down {
-  background: blue;
-  margin: 0% 0% 20% 5vw;
-}
 
+button#up {
+  color: royalblue;
+}
+button#right {
+  color: yellow; 
+}
+button#left {
+  color: green;
+}
+button#down {
+
+
+  color: tomato;
+}
 
 
 @media (orientation: portrait) {
   body {
-
     flex-direction: column;
+  }
+  button{
+    font-size:10vh;
   }
 }
 
 @media (orientation: landscape) {
   body { 
-
     flex-direction: row;
   }
+  button{
+     font-size:10vw;
+  }
+  
 } 

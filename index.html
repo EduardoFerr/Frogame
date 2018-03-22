@@ -3,29 +3,45 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" sizes="192x192" href="images/Star.png">
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body>
-    <script src="./js/resources.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/engine.js"></script>
+<body background="./images/fundo-da-agua-azul.png">
+            <script src="./js/resources.js"></script>
+            <script src="./js/app.js"></script>
+            <script src="./js/engine.js"></script>
+            <script src="./js/helpers.js"></script>
     <section id="controle">
         <aside>
-            <button id="up" onclick="player.handleInput('up')"></button>
+            <button id="up" style="color: royalblue;" onclick="player.handleInput('up')">
+                <i class="fas fa-arrow-alt-circle-up"></i>
+            </button>
         </aside>
         <aside>
-            <button id="left" onclick="player.handleInput('left');"></button>
-            <button id="right" onclick="player.handleInput('right');"></button>
+            <button id="left" onclick="player.handleInput('left');">
+                <i class="fas fa-arrow-alt-circle-left"></i>
+            </button>
 
+            <button id="right"onclick="player.handleInput('right');">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+            </button>
         </aside>
         <aside>
-            <button id="down" onclick="player.handleInput('down')"></button>
+            <button id="down"  onclick="player.handleInput('down')">
+                <i class="fas fa-arrow-alt-circle-down" ></i>
+            </button>
         </aside>
     </section>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+        crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
