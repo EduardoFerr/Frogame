@@ -1,13 +1,14 @@
 # Frogger Game: 
 
+https://eduardoferr.github.io/Frogame/
 
 ### Descrição do jogo Frogger 
 
 Sua implementação segue as funcionalidades básicas,
 mas novas funcionalidades podem ser implementadas:
 
-![PrintScreen da tela do jogo](https://raw.githubusercontent.com/EduardoFerr/Frogame/master/images/PrintScreen/frogameMobile.png "Frog Game - HTML5/CSS3/JS-OO")
-
+![PrintScreen da tela do jogo](https://raw.githubusercontent.com/EduardoFerr/Frogame/master/images/PrintScreen/frogameMobile.png "Frog Game - HTML5/CSS3/JS-OO" )
+**![DEMO](https://eduardoferr.github.io/Frogame/)**
 ### Funcionalidade básica
 
 Neste jogo você tem um Jogador e Inimigos (Insetos). O objetivo do jogador é chegar à água, sem colidir com nenhum dos inimigos. O jogador pode mover-se para a esquerda, para a direita, para cima e para baixo. Os inimigos se movem em velocidades variadas na parte do bloco pavimentado da cena. Uma vez que o jogador colide com um inimigo, o jogo é reiniciado e o jogador volta para o quadrado inicial. Uma vez que o jogador chega à água, o jogo ganhou.
